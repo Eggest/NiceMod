@@ -6,10 +6,10 @@
     " a "
   ],
   "key": {
-    "W": {
+    "a": {
       "tag": "minecraft:gold_ingot"
     },
-    "R": {
+    "b": {
       "item": "minecraft:emerald"
     }
   },
