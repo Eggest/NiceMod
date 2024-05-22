@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nicemod",
+  "version": "${version}",
+  "name": "NiceMod",
+  "description": "无",
+  "authors": [
+    "Eggest"
+  ],
+  "contact": {
+    "repo": "https://github.com/Eggest/NiceMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nicemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "eggest.nicemod.client.NiceModClient"
+    ],
+    "main": [
+      "eggest.nicemod.NiceMod"
+    ]
+  },
+  "mixins": [
+    "nicemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
